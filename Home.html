@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="aboutme.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="conact.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="icon" type="image/x-icon" href="mk logo.jpg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Responsive Navbar</title>
+</head>
+<body>
+    <header>
+
+        <nav class="navbar">
+            <div class="navbar-brand">Jigar's Portfolio</div>
+        <div class="navbar-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar-links" id="navbar-links">
+            <li><a  href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<main>
+
+    <!-- home---- -->
+    
+    <div id="home" class="container">
+        <div class="content">
+            <h1>Hi, My name is <span class="highlight">Jigar</span></h1>
+            <p>and I am a passionate</p>
+            <!-- Element to contain animated typing -->
+            <span id="element"></span>
+            <div class="buttons">
+                <button onclick="downloadResume()">Download Resume</button>
+                <button onclick="visitGithub()">Visit Github</button>
+            </div>
+        </div>
+        <div class="image">
+            <img src="image/jigar 1.jpg" alt="Profile Image">
+        </div>
+    </div>
+    
+    <!-- About-->
+    
+    <div id="about" class="containe">
+        <h2>Get To Know More</h2>
+        <h1>About Me</h1>
+        <div class="profile">
+            <img src="image/jigar.jpg" alt="Profile Picture" class="profile-pic">
+        </div>
+        <div class="info">
+            <div class="card">
+                    <h3>Experience</h3>
+                    <p>Front End Developer Inter - IBM skillbuild CSBOX 06/2024 - 08/2024</p>
+                    <p>Swastik Computer Education An Institution Of 
+                        Software Courses</p>
+                        <p>Frontend Development</p>
+                    </div>
+                    <div class="card">
+                        <h3>Education</h3>
+                        <p>B.Sc. Bachelors Degree</p>
+                        <p>Master of Computer Application(MCA)
+                            Manipal University ,Jaipur </p>
+                    </div>
+                </div>
+                <p class="description">
+                    A web developer is responsible for creating, maintaining, and enhancing websites and web applications. They work with various programming languages, frameworks, and tools to ensure websites are functional, visually appealing, and user-friendly. Web developers typically fall into three main categories:
+
+
+                </p>
+            </div>
+
+
+            
+            
+            <!-- skills -->
+            
+            
+            <div id="skills" class="container-2">
+                <h1>My Skills</h1>
+                <div class="skills">
+                    <div class="skill-card">
+                        <img src="html.png" alt="HTML Icon">
+                        <h3>HTML</h3>
+                        <p>HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="css.png" alt="CSS Icon">
+                        <h3>CSS</h3>
+                        <p>The full form of CSS is Cascading Style Sheets. It is enabled by browsers and is specifically designed to distinguish the document's content from the report's appearance.</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="javas.png" alt="JavaScript Icon">
+                        <h3>JavaScript</h3>
+                        <p>JavaScript is used to make web pages more interactive and attractive. It allows developers to create dynamic content, use animations, pop-up menus, clickable buttons, and more.</p>
+                    </div>
+            <div class="skill-card">
+                <img src="BOOTSTRAP.png" alt="PHP Icon">
+                <h3>Bootstrap</h3>
+                <p>Overview. Bootstrap's form controls expand on our Rebooted form styles with classes. Use these classes to opt into their customized displays for a more consistent rendering across browsers and devices.
+                </p>
+            </div>
+            <div class="skill-card">
+                <img src="react.png" alt="MySQL Icon">
+                <h3>React js</h3>
+                <p>React JS is short for React, a JavaScript library used to build user interfaces (UIs) for websites. React is a front-end library, which means it's used for client-side programming, or building things that users see in their browser</p>
+            </div>
+            <div class="skill-card">
+                <img src="jquery.png" alt="Python Icon">
+                <h3>Jquery</h3>
+                <p>jQuery is a JavaScript framework. It facilitates the readability and the manipulation of HTML DOM elements, event handling, animations, and AJAX calls. </p>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Projects -->
+    
+    <div id="projects">
+        
+        <div class="project-first">
+
+            <h1>Browse My Recent</h1>
+            <h2>Projects</h2>
+        </div>
+    
+    <div  class="project-container">
+        <div class="project-card">
+            <img src="image/Dal Bati.png" alt="Food-Website">
+            <h3>Food-Website</h3>
+            <div class="buttons">
+                <a href="https://github.com/jigar012/Food-Website"><button>GitHub</button></a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="image/jammu and kashmir.avif" alt="Nature">
+            <h3>Nature</h3>
+            <div class="buttons">
+                <a href="https://github.com/jigar012/Hotels"><button>GitHub</button></a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="image/ae1.jpg" alt="Cake">
+            <h3>Cake</h3>
+            <div class="buttons">
+                <a href="https://github.com/jigar012/Cake"><button>GitHub</button></a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="image/about-image.jpg" alt="Coffee">
+            <h3>Coffee</h3>
+            <div class="buttons">
+                <a href="https://github.com/jigar012/Coffee"><button>GitHub</button></a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="image/about.png" alt="Votting System">
+            <h3>Votting System</h3>
+            <div class="buttons">
+                <a href="https://github.com/jigar012/votting-System"><button>GitHub</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Contact -->
+    
+    
+    <div id="contact" class="contact-section">
+        <h2>Get In Touch</h2>
+        <h1>Contact Me</h1>
+        <div class="contact-buttons">
+            <a href="#"> <button onclick="openEmail()"> <i class="fa-solid fa-envelope"></i>jigarvaishnav001@gmal.com</button></a>  
+            <button onclick="openLinkedIn()"><i class="fa-brands fa-linkedin"></i> LinkedIn</button>
+            <button onclick="openInstagram()"><i class="fa-brands fa-instagram"></i> Instagram</button>
+            <button onclick="openWhatsApp()"><i class="fa-brands fa-whatsapp"></i>WhatsApp</button>
+        </div>
+    </div>
+    
+    
+</main>
+    <!-- footer -->
+    <div class="footer-up">
+        
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <footer>
+        <p>Copyright © 2024 jigar vaishnav. All Rights Reserved</p>
+    </footer>
+    <script src="nav.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+ <!-- Setup and start animation! -->
+ <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', ''],
+      typeSpeed: 50,
+    });
+  </script>
+
+</body>
+</html>
